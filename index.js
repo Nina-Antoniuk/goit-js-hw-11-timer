@@ -46,7 +46,7 @@ class CountdownTimer {
 
 }
 
-const newTimer = new CountdownTimer({selector: '#timer-1', date: new Date('2021, 08, 17')});
+const newTimer = new CountdownTimer({selector: '#timer-1', date: new Date('2022, 03, 01')});
 
 window.addEventListener("DOMContentLoaded", newTimer.init());
 
